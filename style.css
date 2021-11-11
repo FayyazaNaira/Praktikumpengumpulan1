@@ -1,59 +1,181 @@
-.myprofile {
-    width: 70%;
-    border:1px solid #000;
+head {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb230, 230, 230);
+}
+
+.atas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px 0;
 }
 
-.table_profile {
-    width: 25%;
+.bagianatas {
+    display: flex;
+    align-items: center;
 }
 
-.profile .gallery .audio{
-    width: 90;
+.namawebsite {
+    margin-right: 50px;
 }
 
-.profile {
-   width: 90; 
+.bagiancategory{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
-.category {
-    width: 20%;
+.categoryatas {
+    margin: 0 20px;
+}
+
+.textnavright {
+    text-decoration: none;
+    color: black;
+}
+
+.garis1 {
+    margin: 0;
+    padding: 0;
+}
+
+.pembungkuskonfirmasi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.bagiankonfirmasi{
+    width: 900px;
+}
+
+.konfirmasi {
+    margin: 15px0;
+}
+
+.judul {
+    margin: 20px 0;
+}
+
+.garis {
+    margin: 10px 0;
+}
+
+.judul2 {
+    margin: 20px 0;
+}
+
+.pembungkusisi{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+}
+
+}
+
+.link {
+    text-decoration: underline; color: blue;
+}
+
+
+.pembungkuskanan {
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+}
+
+.judulkanan {
+    padding: 10px 0;
+}
+
+.tablekanan {
+    width: 270px;
+}
+
+.daftar {
+    padding: 10px 0;
+}
+
+.hasil {
+    padding: 10px 0;
     text-align: end;
 }
 
-.tittle_category {
+
+.kolomisi {
+    padding: 5px 0;
+}
+
+.hasilisi {
+    padding: 7px 0;
+}
+
+.tombol {
+    padding: 7px 20px;
+}
+
+
+
+ td {
+     text-align: end;
+ }
+
+ hr {
+     margin: 0;
+     padding: 0;
+ }
+
+ footer {
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     margin: 0 auto;
+     padding: 20px 0;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     list-style: none;
+     padding: 0;
+ }
+
+.judulbawah {
+    "margin-right: 30px;"
+}
+
+
+.bagiancategory2 {
+    display: flex; 
+    align-items: center; 
+    list-style: none; 
+    padding: 0;"
+}
+
+.categorybawah {
+    style="margin: 0 10px;"
+}
+
+.join {
+    margin: 2px 0;
+}
+
+.colomemail {
+    padding: 5px;
+}
+
+.tombolsubscribe {
+    padding: 5px;
+    background-color: grey;
     font-weight: bold;
-    text-decoration: underline;
-}
-
-.content{
-    margin: 30px 0;
-}
-
-
-
-section {
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-
-
-.collage{
-    display: grid;
-    grid-template-columns: 100px 100px;
-    justify-content: center;
-}
-
-.startup {
-    width: 350;
-}
-
-.template {
-    width: 120;
-}
-
-.shoutulharokah{
-
+    color: white;
 }
