@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: lightcoral;
+        }
+        .flex {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .container {
+            width: 1300px;
+            padding: 25px;
+            margin: 0 auto;
+        }
+
+        header, footer {
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            line-height: 100px;
+            background-color: skyblue;
+        }
+
+        aside {
+            height: 380px;
+            width: 900px;
+            text-align: center;
+            background-color: palevioletred;
+        }
+
+        article {
+            height: 380px;
+            width: 900px;
+            text-align: center;
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header><h2>Header</h2></header>
+        <main class="flex">
+            <aside><h2>Aside</h2></aside>
+            <article>
+                <h2 style="margin-top: 170px; margin-bottom: 20px;">Article</h2>
+                <img  style="margin: 0 20px;" src="logo.jpg" width="150" alt="">
+                <img  style="margin: 0 20px;" src="logo.jpg" width="150" alt="">
+                <img  style="margin: 0 20px;" src="logo.jpg" width="150" alt="">
+            </article>
+        </main>
+    </div>
+    <footer><h2>Footer</h2></footer>
+</body>
+</html>
