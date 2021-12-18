@@ -9,7 +9,7 @@
 
         function luasLingkaran() {
 
-            cons phi = 3.14;
+            const phi = 3.14;
             let jariJari = document.getElementById('r').value
             let luas = phi * jariJari ** 2;
 
@@ -20,7 +20,7 @@
         function kelilingLingkaran() {
             const phi = 3.14;
             let jariJari = document.getElementById('r').value;
-            let keliling = 2 * PHI * jariJari;
+            let keliling = 2 * phi * jariJari;
 
             document.getElementById('hasil').value = keliling;
         }
