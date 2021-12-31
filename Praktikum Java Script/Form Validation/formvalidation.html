@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script>
+        function printFunction(){
+            event.preventDefault();
+
+            var fullName= document.getElementById("namaPelanggan").value,
+                mail = document.getElementById("email").value,
+                time = document.getElementById("jamKeberangkatan").value,
+                destination = document.getElementById("tujuanKeberangkatan").value,
+                total = document.getElementById("jumlahTiket").value,
+
+                paragraph = document.createElement("p");
+
+            paragraph.innerHTML = "Nama Pelanggan : "+fullName + "<br>" + "Email : "+mail +"<br>" + "Jam Keberangkatan :"+time +"<br>"+ "Tujuan Keberangkatan : "+destination +"<br>"+ "Jumlah Tiket : "+total;
+            document.getElementById("output").appendChild(paragraph);
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="printFunction()">
+        <table>
+            <tr>
+                <td><label for="namaPelanggan">Nama Pelanggan</label></td>
+                <td>:</td>
+                <td><input type="text" id="namaPelanggan" maxlength="30" placeholder="Nama Anda" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" placeholder="example@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="jamKeberangkatan">Jam Keberangkatan</label></td>
+                <td>:</td>
+                <td><input type="time" id="jamKeberangkatan" placeholder="Waktu"  required></td>
+            </tr>
+            <tr>
+                <td><label for="tujuanKeberangkatan">Tujuan Keberangkatan</label></td>
+                <td>:</td>
+                <td><input type="text" id="tujuanKeberangkatan" placeholder="Tujuan Anda" required></td>
+            </tr>
+            <tr>
+                <td><label for="jumlahTiket">Jumlah Tiket</label></td>
+                <td>:</td>
+                <td><input type="number" min="1" max="10" id="jumlahTiket" value="1" placeholder="Berapa?" required></td>
+            </tr>
+        </table>
+        <button type="submit">Submit</button>
+        <input type="reset" value="reset">
+    </form>
+    <div id="output"></div>
+
+</body>
+</html>
