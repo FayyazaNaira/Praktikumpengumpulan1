@@ -1,0 +1,59 @@
+.myprofile {
+    width: 70%;
+    border:1px solid #000;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.table_profile {
+    width: 25%;
+}
+
+.profile .gallery .audio{
+    width: 90;
+}
+
+.profile {
+   width: 90; 
+}
+
+.category {
+    width: 20%;
+    text-align: end;
+}
+
+.tittle_category {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content{
+    margin: 30px 0;
+}
+
+
+
+section {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+.collage{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+}
+
+.startup {
+    width: 350;
+}
+
+.template {
+    width: 120;
+}
+
+.shoutulharokah{
+
+}
