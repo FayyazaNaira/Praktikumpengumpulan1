@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Kurs Rupiah</title>
+    <script>
+        function convert() {
+            let nilaiAwal = document.getElementById('valuta1').value;
+            let hitungKurs = document.getElementById('nilaiTukar').value;
+            let hasil;
+
+            if (hitungKurs == 'toIDR') {
+                hasil = nilaiAwal * 14650;
+            }
+            else if (hitungKurs == 'toUSD') {
+                hasil = nilaiAwal / 14650;
+            }
+            else {
+                hasil = 0;
+            }
+
+            document.getElementById('valuta2').value = hasil;
+        }
+    </script>
+</head>
+<body>
+
+    <label for="valuta1">Nilai Awal</label>
+    <input id="valuta1" type="number" onchange="convert()">
+    <select id="nilaiTukar" onchange="convert()">
+        <option value="0">-- Pilih Kurs Mata Uang Asing --</option>
+        <option value="toIDR">USD ke IDR</option>
+        <option value="toIDR">IDR ke USD</option>
+    </select>
+    <label for="valuta2">Nilai Akhir</label>
+    <input id="valuta2" type="number" readonly>
+
+</body>
+</html>
