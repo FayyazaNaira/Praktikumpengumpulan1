@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div h2 {
+    margin: 0 50px 0 0;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav div ul{
+    margin: 0 20px;
+}
+
+nav div .cart {
+    text-decoration: none;
+    color: black;
+}
+
+main .pembungkuskonfirmasi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+main div .bagiankonfirmasi{
+    width: 900px;
+}
+
+main div .bagiankonfirmasi p{
+    margin: 15px 0;
+}
+
+main div .bagiankonfirmasi h1, main div .bagiankonfirmasi h2 {
+    margin: 20px 0;
+}
+
+main div .bagiankonfirmasi hr {
+    margin: 15px 0;
+}
+
+main div .bagiankonfirmasi .pembungkusisi {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+}
+
+main div .bagiankonfirmasi .pembungkusisi div p {
+    margin: 5px 0;
+}
+
+.pembungkuskanan {
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+}
+
+main div .pembungkuskanan h3 {
+    padding: 10px 0;
+}
+
+main div .pembungkuskanan table {
+    width: 270px;
+}
+
+main div .pembungkuskanan table tbody tr td {
+    padding: 5px 0;
+}
+
+main div .pembungkuskanan table tbody tr td.hasil {
+     text-align: end;
+}
+
+main div .pembungkuskanan table tbody tr td input {
+    padding: 7px 0;
+}
+
+main div .pembungkuskanan table tbody tr td button {
+    padding: 7px 20px;
+}
+
+main div .pembungkuskanan table tbody tr td hr {
+    margin: 10px 0;
+}
+
+footer {
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     margin: 0 auto;
+     padding: 20px 0;
+}
+
+footer .nav_kiri{
+    display: flex;
+    align-items: center;
+}
+
+footer .nav_kiri h4 {
+    margin-right: 30px;
+}
+
+
+footer .nav_kiri ul {
+    display: flex; 
+    align-items: center; 
+    list-style: none; 
+    padding: 0;
+}
+
+footer .nav_kiri ul li a{
+    margin: 0 10px;
+}
+
+footer.nav_kanan {
+    margin: 2px 0;
+}
+
+footer .nav_kanan div input {
+    padding: 5px;
+}
+
+footer .nav_kanan div button {
+    padding: 5px;
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+}
